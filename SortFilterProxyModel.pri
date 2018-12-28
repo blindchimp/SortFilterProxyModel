@@ -23,7 +23,11 @@ HEADERS += $$PWD/qqmlsortfilterproxymodel.h \
     $$PWD/proxyroles/proxyrolecontainer.h \
     $$PWD/proxyroles/joinrole.h \
     $$PWD/proxyroles/switchrole.h \
-    $$PWD/proxyroles/expressionrole.h
+    $$PWD/proxyroles/expressionrole.h \
+    $$PWD/proxyroles/singlerole.h \
+    $$PWD/proxyroles/regexprole.h \
+    $$PWD/sorters/filtersorter.h \
+    $$PWD/proxyroles/filterrole.h
 
 SOURCES += $$PWD/qqmlsortfilterproxymodel.cpp \
     $$PWD/filters/filter.cpp \
@@ -49,4 +53,8 @@ SOURCES += $$PWD/qqmlsortfilterproxymodel.cpp \
     $$PWD/proxyroles/joinrole.cpp \
     $$PWD/proxyroles/switchrole.cpp \
     $$PWD/proxyroles/expressionrole.cpp \
-    $$PWD/proxyroles/proxyrolesqmltypes.cpp
+    $$PWD/proxyroles/proxyrolesqmltypes.cpp \
+    $$PWD/proxyroles/singlerole.cpp \
+    $$PWD/proxyroles/regexprole.cpp \
+    $$PWD/sorters/filtersorter.cpp \
+    $$PWD/proxyroles/filterrole.cpp
